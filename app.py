@@ -1,3 +1,11 @@
 import streamlit as st
 st. write("Hello World")
-st.text_input("Favorite movie?")
+st.text_input("Enter your name: ")
+st.text_input("favourite actor?")
+st.text_input("Favourite actor movie?")
+st.text_input("When did you recently watched that movie?")
+a=st.text_input("enter your name: ")
+b=st.text_input("favourite actor?")
+c=st.text_input("Favourite actor movie?")
+d=st.text_input("when did you recently watched that movie")
+st.write("Hi {}, your favourite actor is {} and his favourite movie is {}, you recently watched that movie on {}".format(a,b,c,d))
